@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Selected__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>captures for selection of the response in the survey</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Selected from the lwc component on survey object</inlineHelpText>
+    <label>Selected</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -4,3 +4,8 @@ Excel plugin for salesforce integration.
   Pull data from salesforce
   Update the data and push it back to salesforce
   https://docs.microsoft.com/en-us/office/dev/add-ins/tutorials/excel-tutorial
+mv lwc_surveys_example lwc_surveys_example_tmp
+git submodule deinit lwc_surveys_example_tmp
+git rm lwc_surveys_example
+mv lwc_surveys_example_tmp lwc_surveys_example
+git add yoursubmodule
