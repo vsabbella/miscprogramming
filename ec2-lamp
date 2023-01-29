@@ -1,10 +1,12 @@
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance
-ec2-52-91-163-159.compute-1.amazonaws.com
-i-025e4bcae0895cb51 
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-lamp-amazon-linux-2.html
+ec2-100-25-141-13.compute-1.amazonaws.com
+ec2-100-25-141-13.compute-1.amazonaws.com
+i-08c8851d88c224249 
 ec2-user
 
 
-ssh -i /Users/venkata.sabbella/Documents/Projects/LAMP-AWS/Linux_WebServer.pem ec2-user@ec2-52-91-163-159.compute-1.amazonaws.com
+ssh -i /Users/venkata.sabbella/Documents/Projects/LAMP-AWS/Linux_WebServer.pem ec2-user@ec2-100-25-141-13.compute-1.amazonaws.com
+sudo yum update -y
 
 
 
