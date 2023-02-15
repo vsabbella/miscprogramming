@@ -1,0 +1,12 @@
+Connect vscode to salesforce org for an existing project cloned from github
+1. In VS Code -> Click on File on Top left -->Select Save Workspace as
+2. And let it save under same Folder where your Git Repository has been cloned with the same name of your cloned repository
+3. This will create a code workspace file (File with type => Code Workspace)
+4. Now in your vs code open new terminal and run the following commands step by step
+   First go to the parent folder where both your Cloned Repository and code workspace file have been saved. 
+   cd..
+5. Now create a salesforce project with manifest in the same cloned directory
+   sfdx force:project:create -n <ProjectName Or ClonedDirectoryName> -t standard --manifest 
+6. Open file >> ‘sfdx-project.json’ and update sfdcLoginUrl as sandbox url => “https://test.salesforce.com”
+7. sfdx force:auth:web:login -h
+8. Set default username
