@@ -1,0 +1,2 @@
+SELECT Id FROM PermissionSet WHERE profile.Name = 'Profile-Name'
+SELECT Name FROM ApexClass WHERE Id IN ( SELECT SetupEntityId FROM SetupEntityAccess WHERE ParentId = '0PS4X000000pzRDWAY' AND SetupEntityType IN ('ApexPage','ApexClass' ))
